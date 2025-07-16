@@ -464,7 +464,7 @@ Pesan: ${contactForm.message}
 
 Mohon informasi lebih lanjut. Terima kasih!`
 
-    const whatsappUrl = `https://wa.me/6281227529614?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/6285878067644?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
 
     alert("Pesan berhasil dikirim! Anda akan dialihkan ke WhatsApp.")
@@ -1228,10 +1228,10 @@ Mohon informasi lebih lanjut. Terima kasih!`
                           value={contactForm.budget}
                           onChange={(e) => setContactForm({ ...contactForm, budget: e.target.value })}
                         >
-                          <option>{"< Rp 5.000.000"}</option>
+                          <option>{"< Rp 1.000.000"}</option>
+                          <option>Rp 1.000.000 - Rp 5.000.000</option>
                           <option>Rp 5.000.000 - Rp 10.000.000</option>
-                          <option>Rp 10.000.000 - Rp 25.000.000</option>
-                          <option>{"> Rp 25.000.000"}</option>
+                          <option>{"> Rp 10.000.000"}</option>
                         </select>
                       </div>
 
@@ -1366,7 +1366,7 @@ Mohon informasi lebih lanjut. Terima kasih!`
                   <div className="space-y-2 text-sm text-muted-foreground">
                     <div>+62 812-2752-9614</div>
                     <div>hello@bikinaja.id</div>
-                    <div>Jakarta, Indonesia</div>
+                    <div>Purwokerto, Indonesia</div>
                   </div>
                 </div>
               </div>
